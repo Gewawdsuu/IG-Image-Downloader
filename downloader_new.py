@@ -116,6 +116,7 @@ def download_selected_images():
 root = tk.Tk()
 root.title("Instagram Image Selector")
 root.geometry("600x700")
+root.iconbitmap(os.path.abspath("app.ico"))  # Set application icon
 
 # Center the window on the screen
 def center_window():
